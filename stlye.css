@@ -1,0 +1,36 @@
+*{
+    font-family: roboto;
+}
+body{
+    margin: 0%;
+}
+
+.header,
+.copy{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;   
+    padding: 0 16px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo h1{
+    font-size: 24px;
+}
+
+.nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-hero div{
+    max-width: ;
+}
