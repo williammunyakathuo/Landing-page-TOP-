@@ -104,7 +104,7 @@ body{
 
 .quote{
     background-color: #E5E7EB;
-    padding: 70px 20px;
+    padding: 70px 30px;
 }
 
 .quote-text{
@@ -112,7 +112,7 @@ body{
     font-style: italic;
     color: #1F2937;
     font-weight: 300;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -123,3 +123,51 @@ body{
     padding-right: 30px;       /* author ends slightly left of the quote's right edge */
     margin: 8px 0 0;
 }
+
+.footer{
+    padding: 100px 0; 
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;            
+    max-width: 1024px;
+    margin: 0 auto;                  
+    padding: 0 120px;               
+    height: 150px;
+    box-sizing: border-box;          
+    background-color: #3b82f6;
+    border-radius: 8px;
+    color: white;
+}
+
+.footer-text h3 {
+  margin: 0 0 4px;
+  font-size: 24px;
+}
+
+.footer-text p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.footer-button button {
+  width: 130px;
+  height: 37px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.copy {
+  text-align: center;        
+  padding: 40px 0;            
+  font-size: 18px;
+  color: white;
+}
+
