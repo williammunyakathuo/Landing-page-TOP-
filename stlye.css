@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    max-width: 1024px;
+    max-width: 900px;
     margin: 0 auto;   
     padding: 0 16px;
     display: flex;
@@ -31,6 +31,95 @@ body{
     gap: 1.5rem;
 }
 
+.header-hero{
+    gap: 40px;
+    padding: 10px;
+}
+
 .header-hero div{
-    max-width: ;
+    flex: 1;
+    margin: 38px 0;
+}
+.header-description button{
+    background-color: #3882F6;
+    padding: 5px;
+    border: 0cm;
+    color: #F9FAF8;
+    border-radius: 4px;
+}
+.header-hero h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-hero p{
+    font-size: 18px;
+}
+
+.header-image{
+    display: flex;
+    align-items: center;      /* vertical */
+    justify-content: center;  /* horizontal */
+    height: 237px;
+    background-color: #6b7280;
+}
+.info-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.random{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-sub{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.subtext-info,
+.info-image{
+    width: 150px;
+    height: 150px;
+}
+
+.info-image{
+    border: 4px solid #3b82f6;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.subtext-info p{
+    justify-content: center;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 70px 20px;
+}
+
+.quote-text{
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#quoter{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 30px;       /* author ends slightly left of the quote's right edge */
+    margin: 8px 0 0;
 }
